@@ -11,9 +11,12 @@ let meuBooleano = true; // booleano
 let meuNull = null; // nulo
 let meuUndefined = undefined; // indefinido
 
-// exibindo os tipos de cada variável
-console.log("meu numero é:", typeof meuNum);
+// exibindo os tipos de cada variável com o typeof
+console.log("meu numero é:", typeof meuNum); //parametros sao valores que voce passa para uma funçao
 console.log("minha string é:", typeof minhaString);
 console.log("meu booleano é:", typeof meuBooleano);
 console.log("meu null é:", typeof meuNull);
 console.log("meu undefined é:", typeof meuUndefined);
+
+//todos os tipos primitivos sao imutaveis (nao podem ter seu valor modificado)
+//
