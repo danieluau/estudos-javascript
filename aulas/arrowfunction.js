@@ -28,7 +28,7 @@ const obj = {
     thisLocal: () => {
 
     }
-}
+};
 
 // para corrigir, você precisa atribuir uma função diferente à propriedade thisLocal do objeto
 // exemplo:
@@ -45,7 +45,7 @@ const obj = {
         // loga o resultado da IIFE (que é undefined, pois a IIFE não retorna nada)
         console.log(thisLocal);
     }
-}
+};
 
 // chama o método thisLocal do objeto 'obj'
 obj.thisLocal();
