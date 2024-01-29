@@ -13,3 +13,4 @@ let b = 10; // 'b' é acessível apenas no bloco em que foi declarado
 
 // exemplo com const
 const c = 10; // 'c' é uma constante, não pode ser reatribuída, e também tem escopo de bloco
+
