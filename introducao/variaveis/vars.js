@@ -36,6 +36,7 @@ const obj = {
     name: "daniel",
     ok: 30
 };
+
 obj.ok = 32;
 // modifica a propriedade 'ok' do objeto 'obj' para o valor 32.
 console.log(obj);
